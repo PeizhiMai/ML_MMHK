@@ -13,6 +13,3 @@
 cd /home/9pm/ED_qbasis/qbasis/bin/ML/HF/Gcal
 export OMP_NUM_THREADS=32
 time ./Square_Hubbard_tbc_G_calculation_UV.x 8 8 0 0 0 0 6 0 0
-job_rc=$?
-bash "/home/9pm/ED_qbasis/qbasis/bin/ML/HF/Gcalpath/submit_next_job_G_UV.sh" "${SLURM_JOB_ACCOUNT:-__ACCOUNT__}"
-exit ${job_rc}

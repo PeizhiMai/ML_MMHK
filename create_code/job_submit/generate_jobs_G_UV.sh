@@ -4,14 +4,14 @@ set -euo pipefail
 file_counter=1
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-CODE_DIR="$(cd "${SCRIPT_DIR}/../" && pwd)"
+CODE_DIR="$(cd "${SCRIPT_DIR}/" && pwd)"
 TEMPLATE_DIR="${SCRIPT_DIR}/templates_G_UV"
 mkdir -p "${TEMPLATE_DIR}" "${SCRIPT_DIR}/logs_G_UV" "${SCRIPT_DIR}/submitted_G_UV"
 
 KXKY_FILE="${CODE_DIR}/kxkyset.txt"
 UV_FILE="${CODE_DIR}/UVset.txt"
 RUN_DIR="/home/9pm/ED_qbasis/qbasis/bin/ML/HF/Gcalpath"
-SUBMIT_NEXT_SCRIPT="${RUN_DIR}/submit_next_job_G_UV.sh"
+SUBMIT_NEXT_SCRIPT="${RUN_DIR}/job_submit/submit_next_job_G_UV.sh"
 
 NUP=8
 NDN=8

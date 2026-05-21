@@ -1,0 +1,17 @@
+# Separate UVset file for additional V>=0 data suggestions, generated 2026-05-21
+# Eta branch: eta0p05
+# Source: /Users/cosdis/Desktop/projects/HK_orbital_cluster/ML_MMHK/data/Gcalpath/rho_re_g/ml_unsupervised_kernel_eta0p05_nonnegative_20260521/additional_data_recommendations.csv
+# Values are written without unnecessary trailing zeros.
+# Format: comma-separated (U,V) tuples.
+
+# Tier 1A: highest-priority recommendations.
+(10.5,2.969),(8.5,2.173),(7.812,2.617),(10,2.938),(5.625,2.343),(9.5,2.812)
+(5.312,2.226),(4.5,2.188),(12,3.188),(8.469,2.173),(8.531,2.173),(4.812,2.188)
+
+# Tier 1B: remaining top recommendations.
+(4,1.312),(10.625,3),(8.469,2.157),(8.531,2.157),(8.407,2.157),(9.75,2.75)
+(4,1.344),(8.5,2.204),(8.562,2.125),(4,1.305),(8.562,2.141),(4,1.281)
+
+# Tier 1C: lower-priority boundary checks.
+(9.875,2.938),(8.438,2.157),(9.938,2.75),(9.688,2.688),(9.562,2.812),(10.062,2.938)
+(10.812,3.062),(10.938,3.062),(7.844,2.598),(5.562,2.32),(4,1.313),(8.5,2.062)

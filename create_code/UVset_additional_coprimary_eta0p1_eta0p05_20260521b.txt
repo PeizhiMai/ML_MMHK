@@ -1,0 +1,16 @@
+# Additional (U,V) suggestions from co-primary eta=0.10 and eta=0.05 learning.
+# Generated 2026-05-21b. Three-decimal precision. V>=0 analysis; V=0 axis checks omitted from this recommendation set.
+# Selection rule: exact eta-branch overlaps first, then equal-weight rank interleaving of eta=0.10 and eta=0.05 recommendations.
+# Machine-readable companion CSV has eta branch ranks and reasons.
+
+# Tier 1: co-primary equal-weight recommendations.
+(4,1.442),(10.5,2.969),(4,1.16),(8.5,2.173),(3,1.294),(4,1.281)
+(9.835,2.5),(7.812,2.617),(4.398,1.5),(10,2.938),(8.773,2.25),(5.625,2.343)
+
+# Tier 2: co-primary equal-weight recommendations.
+(2.585,1.229),(9.5,2.812),(4.102,1.45),(5.312,2.226),(4.938,2.34),(6.375,2.477)
+(9.922,0),(4.5,2.188),(3,1.283),(12,3.188),(8.788,2.25),(8.469,2.173)
+
+# Tier 3: co-primary equal-weight recommendations.
+(9.851,2.5),(8.531,2.173),(4.414,1.5),(4.812,2.188),(2.601,1.225),(10.625,3)
+(9.625,3),(8.469,2.157),(4.086,1.458),(8.531,2.157),(4,1.144),(8.407,2.157)

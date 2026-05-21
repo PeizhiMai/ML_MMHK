@@ -1,0 +1,37 @@
+U,V,combined_score,eta_support,best_tier,best_rank,reasons
+10.5,2.969,1.494930895238095,eta0p05+eta0p1,1,1,nearest midpoint between strong-gap spectral clusters; nearest midpoint between strong-gap spectral clusters
+7.812,2.617,1.0822462879128254,eta0p05+eta0p1,1,3,nearest midpoint between strong-gap spectral clusters; nearest midpoint between strong-gap spectral clusters
+4.0,1.442,1.05,eta0p1,1,1,strong_gap_threshold_R0_0p01
+10.0,2.938,0.9998681773802167,eta0p05+eta0p1,1,4,deep_gap_threshold_R0_0p001; deep_gap_threshold_R0_0p001; nearest midpoint between strong-gap spectral clusters; nearest midpoint between strong-gap spectral clusters; nearest midpoint between strong-gap spectral clusters; nearest midpoint between strong-gap spectral clusters
+8.5,2.173,0.9249997416666841,eta0p05,1,2,strong_gap_threshold_R0_0p01
+9.5,2.812,0.9153920463452923,eta0p05+eta0p1,1,6,deep_gap_threshold_R0_0p001; nearest midpoint between strong-gap spectral clusters; nearest midpoint between strong-gap spectral clusters; nearest midpoint between strong-gap spectral clusters; nearest midpoint between strong-gap spectral clusters
+4.0,1.16,0.9071428571428571,eta0p1,1,2,gap_open_threshold_R0_0p10
+5.312,2.226,0.8714467892415638,eta0p05+eta0p1,1,7,nearest midpoint between strong-gap spectral clusters; nearest midpoint between strong-gap spectral clusters
+4.5,2.188,0.8422856812190498,eta0p05+eta0p1,1,8,nearest midpoint between strong-gap spectral clusters; nearest midpoint between strong-gap spectral clusters
+12.0,3.188,0.8422856812190498,eta0p05+eta0p1,1,9,nearest midpoint between strong-gap spectral clusters; nearest midpoint between strong-gap spectral clusters
+4.812,2.188,0.8013908166577652,eta0p05+eta0p1,1,12,nearest midpoint between strong-gap spectral clusters; nearest midpoint between strong-gap spectral clusters
+3.0,1.294,0.7772716190476191,eta0p1,1,3,strong_gap_threshold_R0_0p01
+9.835,2.5,0.7611100952380953,eta0p1,1,4,strong_gap_threshold_R0_0p01
+4.398,1.5,0.7166666666666667,eta0p1,1,5,strong_gap_threshold_R0_0p01
+8.773,2.25,0.7166666666666667,eta0p1,1,6,strong_gap_threshold_R0_0p01
+2.585,1.229,0.6824540952380953,eta0p1,1,7,strong_gap_threshold_R0_0p01
+5.625,2.343,0.6489076634061558,eta0p05,1,5,nearest midpoint between strong-gap spectral clusters; nearest midpoint between strong-gap spectral clusters
+9.75,2.75,0.621844045210397,eta0p05,1,18,deep_gap_threshold_R0_0p001; deep_gap_threshold_R0_0p001; deep_gap_threshold_R0_0p001; deep_gap_threshold_R0_0p001; deep_gap_threshold_R0_0p001; nearest midpoint between strong-gap spectral clusters
+4.0,1.312,0.6131948391203441,eta0p05,1,13,gap_open_threshold_R0_0p10; strong_gap_threshold_R0_0p01; strong_gap_threshold_R0_0p01; strong_gap_threshold_R0_0p01
+4.102,1.45,0.6047001904761905,eta0p1,1,8,strong_gap_threshold_R0_0p01
+8.469,2.173,0.5353628343091444,eta0p05,1,10,strong_gap_threshold_R0_0p01
+8.531,2.173,0.5353628343091444,eta0p05,1,11,strong_gap_threshold_R0_0p01
+10.625,3.0,0.4669490422033973,eta0p05,1,14,deep_gap_threshold_R0_0p001; nearest midpoint between strong-gap spectral clusters
+4.0,1.344,0.44329201378053246,eta0p05,1,19,strong_gap_threshold_R0_0p01; strong_gap_threshold_R0_0p01; strong_gap_threshold_R0_0p01
+4.0,1.305,0.4391855473876302,eta0p05,1,22,strong_gap_threshold_R0_0p01; strong_gap_threshold_R0_0p01; strong_gap_threshold_R0_0p01
+9.938,2.75,0.4375850174943322,eta0p05,1,27,deep_gap_threshold_R0_0p001; deep_gap_threshold_R0_0p001; deep_gap_threshold_R0_0p001; nearest midpoint between strong-gap spectral clusters
+9.688,2.688,0.4364369842375344,eta0p05,1,28,deep_gap_threshold_R0_0p001; deep_gap_threshold_R0_0p001; deep_gap_threshold_R0_0p001; nearest midpoint between strong-gap spectral clusters
+4.0,1.281,0.42308518179432125,eta0p05,1,24,gap_open_threshold_R0_0p10; strong_gap_threshold_R0_0p01; strong_gap_threshold_R0_0p01
+9.875,2.938,0.40113511659099227,eta0p05,1,25,deep_gap_threshold_R0_0p001; deep_gap_threshold_R0_0p001; nearest midpoint between strong-gap spectral clusters
+8.469,2.157,0.39641361023909266,eta0p05,1,15,strong_gap_threshold_R0_0p01
+8.531,2.157,0.39641361023909266,eta0p05,1,16,strong_gap_threshold_R0_0p01
+8.407,2.157,0.3944440770370616,eta0p05,1,17,strong_gap_threshold_R0_0p01
+4.0,1.594,0.3902494476190477,eta0p1,1,11,nearest midpoint between strong-gap spectral clusters; nearest midpoint between strong-gap spectral clusters
+3.062,1.477,0.3754715428571429,eta0p1,1,12,nearest midpoint between strong-gap spectral clusters; nearest midpoint between strong-gap spectral clusters
+4.0,1.313,0.3682265521182299,eta0p05,1,35,strong_gap_threshold_R0_0p01; strong_gap_threshold_R0_0p01; local refinement around low-density/boundary sample in nonnegative_v_gap_open
+8.5,2.204,0.3416665805555613,eta0p05,1,20,strong_gap_threshold_R0_0p01

@@ -1,0 +1,507 @@
+{
+  "tag": "20260521b",
+  "date_label": "2026-05-21b",
+  "raw_refresh": {
+    "remote_count_after": 4320,
+    "local_count_before": 71034,
+    "local_count_after": 71040,
+    "remote_only_downloaded": 6,
+    "remote_missing_after": 0,
+    "downloaded_files": []
+  },
+  "branches": {
+    "eta0p1": {
+      "eta": 0.1,
+      "npz": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/ML_MMHK/data/Gcalpath/rho_re_g/rho_re_g_all_complete_eta0p1_20260521b.npz",
+      "n_complete_groups": 296,
+      "n_spectra": 35816,
+      "n_omega": 1201,
+      "samples": {
+        "total": 296,
+        "v_nonnegative": 247,
+        "v_positive": 218,
+        "v_zero": 29,
+        "v_negative": 49
+      },
+      "gap": {
+        "n_samples": 247,
+        "n_gap_open": 219,
+        "n_strong_gap": 153,
+        "n_deep_gap": 23,
+        "ratio_median": 0.007281485615102769,
+        "ratio_min": 0.0004034578899516845,
+        "ratio_max": 11.433835272911848
+      },
+      "supervised_cv": {
+        "rho_ridge": {
+          "r2_U": 0.9029383884697835,
+          "r2_V": 0.9973645170024449,
+          "rmse_U": 0.9527327740335524,
+          "rmse_V": 0.055491594703489355
+        },
+        "rho_random_forest": {
+          "r2_U": 0.9614403351542296,
+          "r2_V": 0.941239278356919,
+          "rmse_U": 0.6005013410040169,
+          "rmse_V": 0.26202374927073535
+        },
+        "reG_random_forest": {
+          "r2_U": 0.9539290966725361,
+          "r2_V": 0.9175219687283319,
+          "rmse_U": 0.6563881322051028,
+          "rmse_V": 0.3104318258055663
+        },
+        "combined_random_forest": {
+          "r2_U": 0.9638486560495794,
+          "r2_V": 0.9272824674840461,
+          "rmse_U": 0.5814462580523154,
+          "rmse_V": 0.29148530373282433
+        }
+      },
+      "luttinger": {
+        "n_samples": 153,
+        "crossing_count_distribution": {
+          "2": 153
+        },
+        "cv": {
+          "r2_U": 0.8010692534542527,
+          "r2_V": 0.9250414969400415,
+          "rmse_U": 1.2384690310707414,
+          "rmse_V": 0.22928502245819468
+        }
+      },
+      "unsupervised": {
+        "primary_best_kmeans": "kmeans_k2",
+        "primary_silhouette": 0.599147115168632,
+        "primary_stability_ari": 0.989917422524801
+      },
+      "kernel": {
+        "scope": {
+          "analysis_v_min": 0.0,
+          "n_deep_gap": 23,
+          "n_gap_open": 219,
+          "n_nonnegative_v": 247,
+          "n_strong_gap": 153
+        },
+        "best_metric": {
+          "bootstrap_ari_mean": 0.9110874674524387,
+          "bootstrap_ari_std": 0.10504796217117258,
+          "calinski_harabasz": 89.84098295624744,
+          "davies_bouldin": 0.6820642138617521,
+          "gamma": 0.12870833638814097,
+          "gamma_factor": 1.0,
+          "k": 4,
+          "kernel": "rbf",
+          "method": "spectral_clustering",
+          "n_samples": 219,
+          "quality_score": 0.8181174666655076,
+          "representation": "raw_rho_low_w2p0_pca",
+          "silhouette": 0.7420511023852912,
+          "subset": "nonnegative_v_gap_open"
+        },
+        "recommendation_file": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/ML_MMHK/data/Gcalpath/rho_re_g/ml_unsupervised_kernel_eta0p1_nonnegative_20260521b/additional_data_recommendations.csv"
+      },
+      "top_recommendations": [
+        [
+          4.0,
+          1.442
+        ],
+        [
+          4.0,
+          1.16
+        ],
+        [
+          3.0,
+          1.294
+        ],
+        [
+          9.835,
+          2.5
+        ],
+        [
+          4.398,
+          1.5
+        ],
+        [
+          8.773,
+          2.25
+        ],
+        [
+          2.585,
+          1.229
+        ],
+        [
+          4.102,
+          1.45
+        ],
+        [
+          4.938,
+          2.34
+        ],
+        [
+          9.922,
+          0.0
+        ]
+      ]
+    },
+    "eta0p05": {
+      "eta": 0.05,
+      "npz": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/ML_MMHK/data/Gcalpath/rho_re_g/rho_re_g_all_complete_eta0p05_20260521b.npz",
+      "n_complete_groups": 296,
+      "n_spectra": 35816,
+      "n_omega": 1201,
+      "samples": {
+        "total": 296,
+        "v_nonnegative": 247,
+        "v_positive": 218,
+        "v_zero": 29,
+        "v_negative": 49
+      },
+      "gap": {
+        "n_samples": 247,
+        "n_gap_open": 229,
+        "n_strong_gap": 199,
+        "n_deep_gap": 98,
+        "ratio_median": 0.002432392596491395,
+        "ratio_min": 0.00013191548577625193,
+        "ratio_max": 12.168533259488362
+      },
+      "supervised_cv": {
+        "rho_ridge": {
+          "r2_U": 0.920053322774395,
+          "r2_V": 0.9978758207734015,
+          "rmse_U": 0.8646643738873444,
+          "rmse_V": 0.049818732615549796
+        },
+        "rho_random_forest": {
+          "r2_U": 0.9609583622355544,
+          "r2_V": 0.937071333911911,
+          "rmse_U": 0.6042426414316282,
+          "rmse_V": 0.27115733647001394
+        },
+        "reG_random_forest": {
+          "r2_U": 0.9509364422650614,
+          "r2_V": 0.9156440604536916,
+          "rmse_U": 0.6773714295141118,
+          "rmse_V": 0.31394598239219124
+        },
+        "combined_random_forest": {
+          "r2_U": 0.9625763747079193,
+          "r2_V": 0.9222642043534584,
+          "rmse_U": 0.5915892646269058,
+          "rmse_V": 0.30137527541770043
+        }
+      },
+      "luttinger": {
+        "n_samples": 199,
+        "crossing_count_distribution": {
+          "2": 199
+        },
+        "cv": {
+          "r2_U": 0.4683091619518095,
+          "r2_V": 0.9036835952077126,
+          "rmse_U": 2.0895469886369704,
+          "rmse_V": 0.29460535855550557
+        }
+      },
+      "unsupervised": {
+        "primary_best_kmeans": "kmeans_k2",
+        "primary_silhouette": 0.5939001586728921,
+        "primary_stability_ari": 0.9949587112624004
+      },
+      "kernel": {
+        "scope": {
+          "analysis_v_min": 0.0,
+          "n_deep_gap": 98,
+          "n_gap_open": 229,
+          "n_nonnegative_v": 247,
+          "n_strong_gap": 199
+        },
+        "best_metric": {
+          "bootstrap_ari_mean": 0.9587900983584063,
+          "bootstrap_ari_std": 0.0949774143610844,
+          "calinski_harabasz": 52.913404296663515,
+          "davies_bouldin": 0.36396027123811947,
+          "gamma": 0.13576810122395216,
+          "gamma_factor": 1.0,
+          "k": 4,
+          "kernel": "rbf",
+          "method": "spectral_clustering",
+          "n_samples": 229,
+          "quality_score": 0.8282915101028006,
+          "representation": "raw_rho_low_w2p0_pca",
+          "silhouette": 0.7215199378936684,
+          "subset": "nonnegative_v_gap_open"
+        },
+        "recommendation_file": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/ML_MMHK/data/Gcalpath/rho_re_g/ml_unsupervised_kernel_eta0p05_nonnegative_20260521b/additional_data_recommendations.csv"
+      },
+      "top_recommendations": [
+        [
+          10.5,
+          2.969
+        ],
+        [
+          8.5,
+          2.173
+        ],
+        [
+          4.0,
+          1.281
+        ],
+        [
+          7.812,
+          2.617
+        ],
+        [
+          10.0,
+          2.938
+        ],
+        [
+          5.625,
+          2.343
+        ],
+        [
+          9.5,
+          2.812
+        ],
+        [
+          5.312,
+          2.226
+        ],
+        [
+          6.375,
+          2.477
+        ],
+        [
+          4.5,
+          2.188
+        ]
+      ]
+    }
+  },
+  "previous_recommendation_coverage": {
+    "file": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/ML_MMHK/create_code/UVset_additional_coprimary_eta0p1_eta0p05_20260519.txt",
+    "present_count": 18,
+    "total_count": 36,
+    "missing_count": 18,
+    "present": [
+      [
+        4.0,
+        1.446
+      ],
+      [
+        4.0,
+        1.164
+      ],
+      [
+        3.0,
+        1.3
+      ],
+      [
+        4.812,
+        2.363
+      ],
+      [
+        4.39,
+        1.5
+      ],
+      [
+        8.765,
+        2.25
+      ],
+      [
+        9.828,
+        2.5
+      ],
+      [
+        2.577,
+        1.231
+      ],
+      [
+        4.11,
+        1.446
+      ],
+      [
+        10.0,
+        2.593
+      ],
+      [
+        9.0,
+        2.438
+      ],
+      [
+        9.5,
+        3.312
+      ],
+      [
+        6.375,
+        2.859
+      ],
+      [
+        9.188,
+        3.312
+      ],
+      [
+        8.5,
+        2.157
+      ],
+      [
+        4.0,
+        1.312
+      ],
+      [
+        9.875,
+        2.625
+      ],
+      [
+        10.0,
+        2.656
+      ]
+    ],
+    "missing": [
+      [
+        5.062,
+        2.446
+      ],
+      [
+        3.407,
+        1.348
+      ],
+      [
+        6.125,
+        2.555
+      ],
+      [
+        4.0,
+        1.148
+      ],
+      [
+        2.969,
+        1.296
+      ],
+      [
+        4.031,
+        1.454
+      ],
+      [
+        4.156,
+        1.454
+      ],
+      [
+        7.125,
+        2.671
+      ],
+      [
+        10.812,
+        3.188
+      ],
+      [
+        8.469,
+        2.157
+      ],
+      [
+        8.531,
+        2.157
+      ],
+      [
+        8.407,
+        2.157
+      ],
+      [
+        11.25,
+        1.0
+      ],
+      [
+        11.25,
+        2.0
+      ],
+      [
+        8.125,
+        2.375
+      ],
+      [
+        4.0,
+        1.344
+      ],
+      [
+        8.562,
+        2.125
+      ],
+      [
+        3.75,
+        1.688
+      ]
+    ],
+    "newly_present_after_download": [
+      [
+        10.0,
+        2.593
+      ],
+      [
+        9.5,
+        3.312
+      ],
+      [
+        4.0,
+        1.312
+      ]
+    ]
+  },
+  "recommendations": {
+    "eta0p1_file": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/ML_MMHK/create_code/UVset_additional_eta0p1_nonnegative_20260521b.txt",
+    "eta0p05_file": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/ML_MMHK/create_code/UVset_additional_eta0p05_nonnegative_20260521b.txt",
+    "eta0p1_compatibility_file": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/ML_MMHK/create_code/UVset_additional_nonnegative_20260521b.txt",
+    "coprimary_txt": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/ML_MMHK/create_code/UVset_additional_coprimary_eta0p1_eta0p05_20260521b.txt",
+    "coprimary_csv": "/Users/cosdis/Desktop/projects/HK_orbital_cluster/ML_MMHK/create_code/UVset_additional_coprimary_eta0p1_eta0p05_20260521b.csv",
+    "top_coprimary": [
+      [
+        4.0,
+        1.442
+      ],
+      [
+        10.5,
+        2.969
+      ],
+      [
+        4.0,
+        1.16
+      ],
+      [
+        8.5,
+        2.173
+      ],
+      [
+        3.0,
+        1.294
+      ],
+      [
+        4.0,
+        1.281
+      ],
+      [
+        9.835,
+        2.5
+      ],
+      [
+        7.812,
+        2.617
+      ],
+      [
+        4.398,
+        1.5
+      ],
+      [
+        10.0,
+        2.938
+      ],
+      [
+        8.773,
+        2.25
+      ],
+      [
+        5.625,
+        2.343
+      ]
+    ]
+  }
+}

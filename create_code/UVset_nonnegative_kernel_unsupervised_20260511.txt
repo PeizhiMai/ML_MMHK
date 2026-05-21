@@ -1,0 +1,15 @@
+# Additional (U,V) data suggestions from V>=0 kernel/unsupervised rerun, 2026-05-11.
+# Source: data/Gcalpath/rho_re_g/ml_unsupervised_kernel_eta0p1_nonnegative_20260511/additional_data_recommendations.csv
+# All listed points are new relative to the current V>=0 data set and are ranked Tier 1 by the current refinement score.
+
+# Tier 1A: strongest-gap internal cluster boundaries and one-class-SVM boundaries.
+(5.375,2.328),(7.875,2.578),(10.750,3.000),(4.000,1.438),(10.000,2.875),(4.000,1.188)
+(12.000,3.125),(6.250,2.516),(4.500,2.125),(9.500,2.875),(2.875,1.250),(5.000,2.266)
+
+# Tier 1B: strong-gap threshold R0 ~ 0.01 and cluster-boundary refinement.
+(10.500,2.875),(5.000,2.328),(3.000,1.219),(9.625,2.875),(10.125,2.875),(4.375,1.500)
+(8.875,2.250),(9.875,0.000),(9.875,2.500),(10.000,2.625),(5.750,2.312),(2.625,1.219)
+
+# Tier 1C: gap-opening/strong-gap threshold cleanup and lower-priority boundary checks.
+(9.000,2.375),(8.375,2.125),(8.625,2.125),(5.125,2.391),(3.375,1.359),(5.125,0.000)
+(4.125,1.438),(10.250,2.625),(6.750,2.532),(4.875,2.125),(10.875,3.125),(8.500,2.125)

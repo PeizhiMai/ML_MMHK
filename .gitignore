@@ -1,3 +1,17 @@
 __pycache__/
 *.pyc
 .DS_Store
+
+# Large/generated local data products. Commit compact summaries explicitly
+# with `git add -f` when needed, not raw Lanczos data or large NPZ arrays.
+data/
+
+# LaTeX build products.
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz

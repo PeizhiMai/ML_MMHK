@@ -1,0 +1,16 @@
+# Additional (U,V) suggestions from co-primary eta=0.10 and eta=0.05 learning.
+# Generated 2026-05-21. Three-decimal precision. Positive V only; V=0 axis checks omitted intentionally.
+# Selection rule: eta=0.10 and eta=0.05 recommendation scores are normalized separately and then combined with equal branch weight.
+# Sources: /Users/cosdis/Desktop/projects/HK_orbital_cluster/ML_MMHK/data/Gcalpath/rho_re_g/ml_unsupervised_kernel_eta0p1_nonnegative_20260521/additional_data_recommendations.csv and /Users/cosdis/Desktop/projects/HK_orbital_cluster/ML_MMHK/data/Gcalpath/rho_re_g/ml_unsupervised_kernel_eta0p05_nonnegative_20260521/additional_data_recommendations.csv
+
+# Tier 1: highest-priority co-primary threshold and cluster-boundary refinements.
+(10.500,2.969),(7.812,2.617),(4.000,1.442),(10.000,2.938),(8.500,2.173),(9.500,2.812)
+(4.000,1.160),(5.312,2.226),(4.500,2.188),(12.000,3.188),(4.812,2.188),(3.000,1.294)
+
+# Tier 2: second-priority co-primary refinements and local boundary bracketing.
+(9.835,2.500),(4.398,1.500),(8.773,2.250),(2.585,1.229),(5.625,2.343),(9.750,2.750)
+(4.000,1.312),(4.102,1.450),(8.469,2.173),(8.531,2.173),(10.625,3.000),(4.000,1.344)
+
+# Tier 3: lower-priority follow-up checks.
+(4.000,1.305),(9.938,2.750),(9.688,2.688),(4.000,1.281),(9.875,2.938),(8.469,2.157)
+(8.531,2.157),(8.407,2.157),(4.000,1.594),(3.062,1.477),(4.000,1.313),(8.500,2.204)

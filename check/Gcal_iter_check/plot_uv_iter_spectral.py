@@ -138,14 +138,17 @@ def spectral_component(
     nrm2: float,
     e0: float,
     u: float,
+    v: float,
     kind: str,
+    coordination: int = 4,
 ) -> np.ndarray:
     omega_complex = omega.astype(complex) + 1j * eta
+    mu_ph = u / 2 + coordination * v
     if kind == "Gh":
-        shifted = omega_complex + u / 2 - e0
+        shifted = omega_complex + mu_ph - e0
         a_eff = shifted[:, None] + coeff_a[:length][None, :]
     else:
-        shifted = omega_complex + u / 2 + e0
+        shifted = omega_complex + mu_ph + e0
         a_eff = shifted[:, None] - coeff_a[:length][None, :]
 
     res = np.zeros_like(omega_complex)
@@ -215,8 +218,12 @@ def main() -> None:
         panel_max = -np.inf
 
         for color, steps in zip(colors, iteration_list):
-            gh_spec = spectral_component(omega, args.eta, gh_a, gh_b, steps, gh_nrm2, gh_e0, gh_data["U"], "Gh")
-            gp_spec = spectral_component(omega, args.eta, gp_a, gp_b, steps, gp_nrm2, gp_e0, gp_data["U"], "Gp")
+            gh_spec = spectral_component(
+                omega, args.eta, gh_a, gh_b, steps, gh_nrm2, gh_e0, gh_data["U"], gh_data["V"], "Gh"
+            )
+            gp_spec = spectral_component(
+                omega, args.eta, gp_a, gp_b, steps, gp_nrm2, gp_e0, gp_data["U"], gp_data["V"], "Gp"
+            )
             total_spec = gh_spec + gp_spec
             panel_min = min(panel_min, float(np.min(total_spec)))
             panel_max = max(panel_max, float(np.max(total_spec)))

@@ -1,0 +1,26 @@
+# Recommended V>=0 additions from kernel/SVM unsupervised refinement
+#
+# Source:
+# data/Gcalpath/rho_re_g/ml_unsupervised_kernel_eta0p1_nonnegative_20260507/additional_data_recommendations.csv
+#
+# Goal:
+# - Refine the strong-gap internal cluster boundary.
+# - Densify the deep-gap threshold near R0 ~ 0.001.
+# - Check the strong-gap threshold near R0 ~ 0.01.
+# - Probe One-Class-SVM boundary/outlier neighborhoods.
+#
+# Values are written without unnecessary trailing zeros.
+# Format follows create_code/UVset.txt: comma-separated (U,V) tuples.
+
+# Tier 1: strong-gap internal cluster boundary and deep-gap onset.
+(9.75,3),(7.25,2.718),(4.75,2.375),(10,3.25),(9.5,3.25),(6,2.594)
+(12,3.25),(10.5,3.25),(9.75,3.25),(9.25,3.25),(10.75,3.25),(6.5,2.812)
+(6.75,2.938),(7.75,2.656),(4.75,2.25),(5.5,2.375),(5.25,2.281)
+
+# Tier 2: strong-gap threshold near R0 ~ 0.01.
+(8.5,2.25),(4,1.375),(9.5,2.75),(8.25,2.25),(8.75,2.25),(10.25,2.75)
+(9,2.25),(10,2.75),(10.5,2.75),(3,1.312),(4.25,1.5),(9.75,0)
+(9.75,2.5),(4,1.625),(3.25,1.406)
+
+# Tier 3: gap-opening boundary and V=0 checks.
+(2.75,1.188),(4,1.125),(2.75,1),(5.25,0)

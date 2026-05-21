@@ -1,0 +1,16 @@
+# Recommended V>=0 additions from kernel/SVM unsupervised refinement, 2026-05-11.
+# Source: data/Gcalpath/rho_re_g/ml_unsupervised_kernel_eta0p1_nonnegative_20260511/additional_data_recommendations.csv
+# Values are written without unnecessary trailing zeros.
+# Format: comma-separated (U,V) tuples.
+
+# Tier 1A: strongest-gap internal cluster boundaries and one-class-SVM boundaries.
+(5.375,2.328),(7.875,2.578),(10.75,3),(4,1.438),(10,2.875),(4,1.188)
+(12,3.125),(6.25,2.516),(4.5,2.125),(9.5,2.875),(2.875,1.25),(5,2.266)
+
+# Tier 1B: strong-gap threshold R0 ~ 0.01 and cluster-boundary refinement.
+(10.5,2.875),(5,2.328),(3,1.219),(9.625,2.875),(10.125,2.875),(4.375,1.5)
+(8.875,2.25),(9.875,0),(9.875,2.5),(10,2.625),(5.75,2.312),(2.625,1.219)
+
+# Tier 1C: gap-opening/strong-gap threshold cleanup and lower-priority boundary checks.
+(9,2.375),(8.375,2.125),(8.625,2.125),(5.125,2.391),(3.375,1.359),(5.125,0)
+(4.125,1.438),(10.25,2.625),(6.75,2.532),(4.875,2.125),(10.875,3.125),(8.5,2.125)

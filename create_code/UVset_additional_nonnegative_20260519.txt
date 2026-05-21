@@ -1,0 +1,16 @@
+# Separate UVset file for additional V>=0 data suggestions, generated 2026-05-19.
+# Source: data/Gcalpath/rho_re_g/ml_unsupervised_kernel_eta0p1_nonnegative_20260519/additional_data_recommendations.csv
+# Values are written without unnecessary trailing zeros.
+# Format: comma-separated (U,V) tuples.
+
+# Tier 1A: highest-priority gap-opening/strong-gap threshold and cluster-boundary refinements.
+(4,1.446),(4,1.164),(3,1.3),(4.812,2.363),(4.39,1.5),(8.765,2.25)
+(9.828,2.5),(9.922,0),(2.577,1.231),(4.11,1.446),(5.062,2.446),(3.407,1.348)
+
+# Tier 1B: remaining threshold refinements and strong-gap/deep-gap boundary checks.
+(6.125,2.555),(5.219,0),(4,1.148),(2.969,1.296),(4.031,1.454),(4.156,1.454)
+(7.125,2.671),(10.812,3.188),(8.5,2.219),(9,2.281),(10,2.531),(9.796,2.5)
+
+# Tier 1C: local cleanup and lower-priority boundary checks.
+(9.954,0),(4.047,1.446),(2.546,1.239),(10,3.125),(8.469,2.219),(8.531,2.219)
+(4,1.414),(7.625,2.734),(9.25,3),(9.75,3.125),(4,1.422),(4.062,1.446)

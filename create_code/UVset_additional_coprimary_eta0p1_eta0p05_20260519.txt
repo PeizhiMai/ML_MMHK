@@ -1,0 +1,13 @@
+# Additional (U,V) suggestions from co-primary eta=0.10 and eta=0.05 learning.
+# Generated 2026-05-19. Three-decimal precision. Positive V only; V=0 axis checks omitted intentionally.
+# Selection rule: eta=0.10 and eta=0.05 are equally weighted; eta=0.02/0.20 only noted as robustness support.
+
+# Tier 1: highest-priority co-primary eta=0.10/0.05 threshold and cluster-boundary refinements.
+(4.000,1.446),(4.000,1.164),(3.000,1.300),(4.812,2.363),(4.390,1.500),(8.765,2.250)
+(9.828,2.500),(2.577,1.231),(4.110,1.446),(10.000,2.593),(9.000,2.438),(9.500,3.312)
+(6.375,2.859),(9.188,3.312),(8.500,2.157),(4.000,1.312),(9.875,2.625),(10.000,2.656)
+
+# Tier 2: second-priority co-primary eta=0.10/0.05 refinements and local boundary bracketing.
+(5.062,2.446),(3.407,1.348),(6.125,2.555),(4.000,1.148),(2.969,1.296),(4.031,1.454)
+(4.156,1.454),(7.125,2.671),(10.812,3.188),(8.469,2.157),(8.531,2.157),(8.407,2.157)
+(11.250,1.000),(11.250,2.000),(8.125,2.375),(4.000,1.344),(8.562,2.125),(3.750,1.688)
